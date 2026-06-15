@@ -1,1 +1,37 @@
+import React from 'react';
+import './AboutUs.css';
 
+function AboutUs() {
+  return (
+    <div className="about-us-container">
+      <h1 className="about-us-title">About Paradise Nursery</h1>
+      <p className="about-us-tagline">Where Greenery Meets Peace</p>
+      
+      <p className="about-us-description">
+        Welcome to Paradise Nursery, your ultimate online destination for carefully curated indoor and outdoor plants. 
+        Our passion lies in bringing life, fresh air, and a touch of nature's serenity into your modern living and working spaces. 
+        Whether you are an experienced horticulturist or a beginner plant parent taking your very first green steps, we are here to support your journey.
+      </p>
+
+      <div className="about-us-mission">
+        <h2>Our Mission</h2>
+        <p>
+          To make high-quality, air-purifying, and aesthetically beautiful plants accessible to everyone. 
+          We source healthy specimens, package them with absolute care, and deliver them directly to your doorstep 
+          alongside the expert guidance you need to watch them thrive.
+        </p>
+      </div>
+      
+      <div className="about-us-values">
+        <h2>Why Choose Us?</h2>
+        <ul>
+          <li><strong>Premium Quality:</strong> Every plant is meticulously inspected and nurtured before shipping.</li>
+          <li><strong>Eco-Friendly Practices:</strong> We prioritize sustainable packaging and sustainable growing techniques.</li>
+          <li><strong>Expert Guidance:</strong> Our customer support includes lifelong plant-care tips and assistance.</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default AboutUs;
