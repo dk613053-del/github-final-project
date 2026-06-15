@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Nursery | Welcome</title>
+    
+    <style>
+        /* Reset default browser margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background Image Layout */
+        .landing-page {
+            /* Sets a dark overlay gradient over a premium plant image for text readability */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.55)), 
+                              url('https://images.unsplash.com/photo-1545241047-6083a3684587?q=80&w=1974&auto=format&fit=crop');
+            
+            /* Forces the image to scale cleanly and cover the entire display screen */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+            /* Full viewport structural metrics */
+            height: 100vh;
+            width: 100vw;
+            
+            /* Centers the text content card perfectly on the monitor screen */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Glassmorphism text layout card */
+        .landing-content {
+            text-align: center;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .landing-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .landing-tagline {
+            font-size: 1.2rem;
+            color: #4ade80; /* Accent light natural green */
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+        }
+
+        .landing-description {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+            color: #f3f4f6;
+        }
+
+        /* Call-to-action button */
+        .get-started-btn {
+            background-color: #22c55e;
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .get-started-btn:hover {
+            background-color: #16a34a;
+            transform: scale(1.03);
+        }
+    </style>
+    </head>
+<body>
+
+    <main class="landing-page">
+        <div class="landing-content">
+            <h1 class="landing-title">Paradise Nursery</h1>
+            <p class="landing-tagline">Where Greenery Meets Peace</p>
+            <p class="landing-description">
+                Explore our curated collection of exquisite plants to breathe life into your home or office space.
+            </p>
+            <button class="get-started-btn">Explore Plants</button>
+        </div>
+    </main>
+    </body>
+</html>
